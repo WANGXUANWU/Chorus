@@ -1,0 +1,64 @@
+{
+ "name": "Chorus pre-submission configuration (frozen on the tuning cases of amendment 22)",
+ "frozen": "2026-10-28 (amendment 22, configuration F3, authors decision at CP2)",
+ "n_lambda": 30,
+ "lambda_min_ratio": 0.02,
+ "alphas": [
+  0.0,
+  0.25,
+  0.5,
+  0.75,
+  1.0
+ ],
+ "gammas": [
+  1.0,
+  2.0
+ ],
+ "selection": "cross-fitted empirical-Bayes selection over 22 candidates (GL and 10 (alpha, gamma) configurations for d in {5, 3}); two validation folds (random halves of rows; alternating calendar weeks with weekly clusters for Beijing); DerSimonian-Laird shrinkage across responses; sparsest candidate within kappa = 0.5 posterior SEs of the best; parsimony by selected groups; reference GL(d=5)",
+ "tol_relative_gap": 1e-06,
+ "strong_rules": true,
+ "mode_rule": "disk: covariance; in memory: residual first, one switch to covariance when the cost model predicts a 25% saving",
+ "evidence": "results/pilot/tune_selection.csv (36 tuning cases): F1 0.974, MCC 0.975, FEE 0.0633, R2 0.6138; mean rank 3.74 of 8 pre-registered variants",
+ "policy": "Formal seeds start at 1001 and are never used for tuning. Every method uses the same 30-point path with ratio 0.02 and per-response validation selection.",
+ "source_sha256": "751bcf49f404aa28397a97d598316676584f4f677ced67c2abbd6170532659a6",
+ "patience": 5,
+ "evidence_patience": "results/pilot/acc: patience 5 gives identical mean metrics to the full path (R2 0.6129, F1 0.9368) with 2.5x lower fit time",
+ "weights": "w_jr = sqrt(d_j) ((1 - alpha) a_jr + alpha mean_r a_jr)^(-gamma), a_jr = ||beta_jr|| / sd_train(y_r)",
+ "kappa": 0.5,
+ "parsimony": "groups",
+ "reference": "GL d=5",
+ "bases": [
+  5,
+  3
+ ],
+ "source_files": [
+  "src/chorus/__init__.py",
+  "src/chorus/basis.py",
+  "src/chorus/costmodel.py",
+  "src/chorus/design.py",
+  "src/chorus/engine.py",
+  "src/chorus/gram_path.py",
+  "src/chorus/kernels.py",
+  "src/chorus/ledger.py",
+  "src/chorus/model.py",
+  "src/chorus/relax.py",
+  "src/chorus/selection.py",
+  "src/chorus/validation.py",
+  "src/chorus/winio.py"
+ ],
+ "memory": "ledger with measured M0, 10% safety factor, delta = max(64 MB, 0.05 M); eviction, batch splitting, infeasible report",
+ "refit": "relaxed refit of every candidate on its own support: phi in {0, .25, .5, .75, 1}, chosen per response by its own validation error (amendment 22, variant F3); least squares from the stage-2 Gram matrix",
+ "evidence_refit": "results/pilot/acc/*/Chorus3 (36 tuning cases): FEE 0.0633 to 0.0602, lower in 36 of 36 cases; supports and picks identical to the frozen rule",
+ "source_hash_method": "sha256 of the concatenated bytes of source_files in the listed order",
+ "startup_check": "ledger.preflight refuses a budget before any data are loaded when the resident set, the start-up allowance of 180 MB, the planned inputs and 1.1 times the fixed arrays exceed M minus the margin (amendment 18); fitting code and selection unchanged",
+ "strategy_rule": "stage 1 from full sufficient statistics (one fused row-panel pass forming X^T X / n and X^T Y / n, then the certified Gram path) when the Gram share of the ledger holds 8 D^2 bytes and its transients and 1.25 times the predicted statistics time is below the predicted working-set time; otherwise the working-set engine (amendment 21)",
+ "evidence_strategy": "results/v2/strategy_invariance.csv: 36 tuning cases, Beijing and 16 DepMap dependencies, 664 responses with identical stage-1 levels, picks and supports under both strategies",
+ "evidence_a22": "results/pilot/tune_a22_fit.csv and tune_a22_select.csv, 54 tuning cases (seeds 101-103 main grid, 201-202 robustness and sharing settings); planning/cp2_tuning_memo.md",
+ "engine_switch_back": "off (frozen engine) until the invariance check of amendment 22 (e)",
+ "worker_options": {
+  "bases": [
+   "../case_d3"
+  ],
+  "relax_per_response": true
+ }
+}

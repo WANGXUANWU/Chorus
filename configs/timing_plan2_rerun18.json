@@ -1,0 +1,38 @@
+[
+ {
+  "experiment": "e3_budget",
+  "tag": "M0.5_full",
+  "method": "Chorus",
+  "variant": "full",
+  "size": 0.5,
+  "q": 64,
+  "n": 200000,
+  "M": 536870912.0,
+  "case": "results/cases/disk_n200000",
+  "options": {
+   "disk": true,
+   "budget": 536870912
+  },
+  "reps": 1,
+  "budget_gb": 0.5,
+  "cap_seconds": 10800
+ },
+ {
+  "experiment": "e3_stress",
+  "tag": "S0.5_full",
+  "method": "Chorus",
+  "variant": "full",
+  "size": 0.5,
+  "q": 64,
+  "n": 25000,
+  "M": 536870912.0,
+  "case": "results/cases/disk_stress",
+  "options": {
+   "disk": true,
+   "budget": 536870912
+  },
+  "reps": 1,
+  "budget_gb": 0.5,
+  "cap_seconds": 10800
+ }
+]

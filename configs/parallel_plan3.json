@@ -1,0 +1,248 @@
+[
+ {
+  "experiment": "e10_par",
+  "tag": "q64_adelie_par6",
+  "method": "adelie",
+  "variant": "adelie_par6",
+  "size": 64,
+  "q": 64,
+  "n": 2000,
+  "workload": "q64",
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ]
+  },
+  "reps": 3,
+  "cap_seconds": 7200,
+  "workers": 6
+ },
+ {
+  "experiment": "e10_par",
+  "tag": "q64_skglm_par6",
+  "method": "skglm",
+  "variant": "skglm_par6",
+  "size": 64,
+  "q": 64,
+  "n": 2000,
+  "workload": "q64",
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ]
+  },
+  "reps": 3,
+  "cap_seconds": 7200,
+  "workers": 6
+ },
+ {
+  "experiment": "e10_par",
+  "tag": "q64_Chorus_par6",
+  "method": "Chorus",
+  "variant": "Chorus_par6",
+  "size": 64,
+  "q": 64,
+  "n": 2000,
+  "workload": "q64",
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ],
+   "stage2": false,
+   "crossfit": false,
+   "relax": false,
+   "patience": null,
+   "batch_size": 64
+  },
+  "reps": 3,
+  "cap_seconds": 7200,
+  "workers": 6
+ },
+ {
+  "experiment": "e10_par",
+  "tag": "q256_adelie_par6",
+  "method": "adelie",
+  "variant": "adelie_par6",
+  "size": 256,
+  "q": 256,
+  "n": 2000,
+  "workload": "q256",
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    256
+   ]
+  },
+  "reps": 3,
+  "cap_seconds": 7200,
+  "workers": 6
+ },
+ {
+  "experiment": "e10_par",
+  "tag": "q256_skglm_par6",
+  "method": "skglm",
+  "variant": "skglm_par6",
+  "size": 256,
+  "q": 256,
+  "n": 2000,
+  "workload": "q256",
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    256
+   ]
+  },
+  "reps": 3,
+  "cap_seconds": 7200,
+  "workers": 6
+ },
+ {
+  "experiment": "e10_par",
+  "tag": "q256_Chorus_par6",
+  "method": "Chorus",
+  "variant": "Chorus_par6",
+  "size": 256,
+  "q": 256,
+  "n": 2000,
+  "workload": "q256",
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    256
+   ],
+   "stage2": false,
+   "crossfit": false,
+   "relax": false,
+   "patience": null,
+   "batch_size": 64
+  },
+  "reps": 3,
+  "cap_seconds": 7200,
+  "workers": 6
+ },
+ {
+  "experiment": "e10_par",
+  "tag": "beijing_adelie_par6",
+  "method": "adelie",
+  "variant": "adelie_par6",
+  "size": 72,
+  "q": 72,
+  "n": 6688,
+  "workload": "beijing",
+  "case": "results/cases/beijing",
+  "options": {},
+  "reps": 3,
+  "cap_seconds": 7200,
+  "workers": 6
+ },
+ {
+  "experiment": "e10_par",
+  "tag": "beijing_skglm_par6",
+  "method": "skglm",
+  "variant": "skglm_par6",
+  "size": 72,
+  "q": 72,
+  "n": 6688,
+  "workload": "beijing",
+  "case": "results/cases/beijing",
+  "options": {},
+  "reps": 3,
+  "cap_seconds": 7200,
+  "workers": 6
+ },
+ {
+  "experiment": "e10_par",
+  "tag": "beijing_Chorus_par6",
+  "method": "Chorus",
+  "variant": "Chorus_par6",
+  "size": 72,
+  "q": 72,
+  "n": 6688,
+  "workload": "beijing",
+  "case": "results/cases/beijing",
+  "options": {
+   "stage2": false,
+   "crossfit": false,
+   "relax": false,
+   "patience": null,
+   "batch_size": 64
+  },
+  "reps": 3,
+  "cap_seconds": 7200,
+  "workers": 6
+ },
+ {
+  "experiment": "e10_par",
+  "tag": "depmap64_adelie_par6",
+  "method": "adelie",
+  "variant": "adelie_par6",
+  "size": 64,
+  "q": 64,
+  "n": 663,
+  "workload": "depmap64",
+  "case": "results/cases/depmap_c200",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ]
+  },
+  "reps": 3,
+  "cap_seconds": 7200,
+  "workers": 6
+ },
+ {
+  "experiment": "e10_par",
+  "tag": "depmap64_skglm_par6",
+  "method": "skglm",
+  "variant": "skglm_par6",
+  "size": 64,
+  "q": 64,
+  "n": 663,
+  "workload": "depmap64",
+  "case": "results/cases/depmap_c200",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ]
+  },
+  "reps": 3,
+  "cap_seconds": 7200,
+  "workers": 6
+ },
+ {
+  "experiment": "e10_par",
+  "tag": "depmap64_Chorus_par6",
+  "method": "Chorus",
+  "variant": "Chorus_par6",
+  "size": 64,
+  "q": 64,
+  "n": 663,
+  "workload": "depmap64",
+  "case": "results/cases/depmap_c200",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ],
+   "stage2": false,
+   "crossfit": false,
+   "relax": false,
+   "patience": null,
+   "batch_size": 64
+  },
+  "reps": 3,
+  "cap_seconds": 7200,
+  "workers": 6
+ }
+]

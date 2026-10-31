@@ -1,0 +1,1641 @@
+[
+ {
+  "experiment": "q_scaling",
+  "tag": "q1",
+  "method": "Chorus",
+  "size": 1,
+  "q": 1,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    1
+   ]
+  },
+  "reps": 3,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "q_scaling",
+  "tag": "q1",
+  "method": "sparsegl",
+  "size": 1,
+  "q": 1,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    1
+   ]
+  },
+  "reps": 3,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "q_scaling",
+  "tag": "q1",
+  "method": "SAM",
+  "size": 1,
+  "q": 1,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    1
+   ]
+  },
+  "reps": 3,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "q_scaling",
+  "tag": "q1",
+  "method": "biglasso",
+  "size": 1,
+  "q": 1,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    1
+   ]
+  },
+  "reps": 3,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "q_scaling",
+  "tag": "q1",
+  "method": "Celer",
+  "size": 1,
+  "q": 1,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    1
+   ]
+  },
+  "reps": 3,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "q_scaling",
+  "tag": "q1",
+  "method": "skglm",
+  "size": 1,
+  "q": 1,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    1
+   ]
+  },
+  "reps": 3,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "q_scaling",
+  "tag": "q1",
+  "method": "grpreg",
+  "size": 1,
+  "q": 1,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    1
+   ]
+  },
+  "reps": 3,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "q_scaling",
+  "tag": "q4",
+  "method": "Chorus",
+  "size": 4,
+  "q": 4,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    4
+   ]
+  },
+  "reps": 3,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "q_scaling",
+  "tag": "q4",
+  "method": "sparsegl",
+  "size": 4,
+  "q": 4,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    4
+   ]
+  },
+  "reps": 3,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "q_scaling",
+  "tag": "q4",
+  "method": "SAM",
+  "size": 4,
+  "q": 4,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    4
+   ]
+  },
+  "reps": 3,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "q_scaling",
+  "tag": "q4",
+  "method": "biglasso",
+  "size": 4,
+  "q": 4,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    4
+   ]
+  },
+  "reps": 3,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "q_scaling",
+  "tag": "q4",
+  "method": "Celer",
+  "size": 4,
+  "q": 4,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    4
+   ]
+  },
+  "reps": 3,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "q_scaling",
+  "tag": "q4",
+  "method": "skglm",
+  "size": 4,
+  "q": 4,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    4
+   ]
+  },
+  "reps": 3,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "q_scaling",
+  "tag": "q4",
+  "method": "grpreg",
+  "size": 4,
+  "q": 4,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    4
+   ]
+  },
+  "reps": 3,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "q_scaling",
+  "tag": "q16",
+  "method": "Chorus",
+  "size": 16,
+  "q": 16,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    16
+   ]
+  },
+  "reps": 3,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "q_scaling",
+  "tag": "q16",
+  "method": "sparsegl",
+  "size": 16,
+  "q": 16,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    16
+   ]
+  },
+  "reps": 3,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "q_scaling",
+  "tag": "q16",
+  "method": "SAM",
+  "size": 16,
+  "q": 16,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    16
+   ]
+  },
+  "reps": 3,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "q_scaling",
+  "tag": "q16",
+  "method": "biglasso",
+  "size": 16,
+  "q": 16,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    16
+   ]
+  },
+  "reps": 3,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "q_scaling",
+  "tag": "q16",
+  "method": "Celer",
+  "size": 16,
+  "q": 16,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    16
+   ]
+  },
+  "reps": 3,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "q_scaling",
+  "tag": "q16",
+  "method": "skglm",
+  "size": 16,
+  "q": 16,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    16
+   ]
+  },
+  "reps": 3,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "q_scaling",
+  "tag": "q16",
+  "method": "grpreg",
+  "size": 16,
+  "q": 16,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    16
+   ]
+  },
+  "reps": 3,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "q_scaling",
+  "tag": "q64",
+  "method": "Chorus",
+  "size": 64,
+  "q": 64,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ]
+  },
+  "reps": 1,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "q_scaling",
+  "tag": "q64",
+  "method": "sparsegl",
+  "size": 64,
+  "q": 64,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ]
+  },
+  "reps": 1,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "q_scaling",
+  "tag": "q64",
+  "method": "SAM",
+  "size": 64,
+  "q": 64,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ]
+  },
+  "reps": 1,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "q_scaling",
+  "tag": "q64",
+  "method": "biglasso",
+  "size": 64,
+  "q": 64,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ]
+  },
+  "reps": 1,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "q_scaling",
+  "tag": "q64",
+  "method": "Celer",
+  "size": 64,
+  "q": 64,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ]
+  },
+  "reps": 1,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "q_scaling",
+  "tag": "q64",
+  "method": "skglm",
+  "size": 64,
+  "q": 64,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ]
+  },
+  "reps": 1,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "q_scaling",
+  "tag": "q64",
+  "method": "grpreg",
+  "size": 64,
+  "q": 64,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ]
+  },
+  "reps": 1,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "q_scaling",
+  "tag": "q256",
+  "method": "Chorus",
+  "size": 256,
+  "q": 256,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    256
+   ]
+  },
+  "reps": 1,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "q_scaling",
+  "tag": "q256",
+  "method": "sparsegl",
+  "size": 256,
+  "q": 256,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    256
+   ]
+  },
+  "reps": 1,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "q_scaling",
+  "tag": "q256",
+  "method": "SAM",
+  "size": 256,
+  "q": 256,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    256
+   ]
+  },
+  "reps": 1,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "q_scaling",
+  "tag": "q256",
+  "method": "biglasso",
+  "size": 256,
+  "q": 256,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    256
+   ]
+  },
+  "reps": 1,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "q_scaling",
+  "tag": "q256",
+  "method": "Celer",
+  "size": 256,
+  "q": 256,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    256
+   ]
+  },
+  "reps": 1,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "q_scaling",
+  "tag": "q256",
+  "method": "skglm",
+  "size": 256,
+  "q": 256,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    256
+   ]
+  },
+  "reps": 1,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "q_scaling",
+  "tag": "q256",
+  "method": "grpreg",
+  "size": 256,
+  "q": 256,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    256
+   ]
+  },
+  "reps": 1,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "n_scaling",
+  "tag": "n25000",
+  "method": "Chorus",
+  "size": 25000,
+  "q": 64,
+  "n": 25000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n25000",
+  "options": {
+   "disk": true,
+   "budget": 2147483648
+  },
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "n_scaling",
+  "tag": "n25000",
+  "method": "sparsegl",
+  "size": 25000,
+  "q": 64,
+  "n": 25000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n25000",
+  "options": {},
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "n_scaling",
+  "tag": "n25000",
+  "method": "SAM",
+  "size": 25000,
+  "q": 64,
+  "n": 25000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n25000",
+  "options": {},
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "n_scaling",
+  "tag": "n25000",
+  "method": "biglasso",
+  "size": 25000,
+  "q": 64,
+  "n": 25000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n25000",
+  "options": {
+   "disk": true
+  },
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "n_scaling",
+  "tag": "n25000",
+  "method": "Celer",
+  "size": 25000,
+  "q": 64,
+  "n": 25000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n25000",
+  "options": {},
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "n_scaling",
+  "tag": "n25000",
+  "method": "skglm",
+  "size": 25000,
+  "q": 64,
+  "n": 25000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n25000",
+  "options": {},
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "n_scaling",
+  "tag": "n25000",
+  "method": "grpreg",
+  "size": 25000,
+  "q": 64,
+  "n": 25000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n25000",
+  "options": {},
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "n_scaling",
+  "tag": "n50000",
+  "method": "Chorus",
+  "size": 50000,
+  "q": 64,
+  "n": 50000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n50000",
+  "options": {
+   "disk": true,
+   "budget": 2147483648
+  },
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "n_scaling",
+  "tag": "n50000",
+  "method": "sparsegl",
+  "size": 50000,
+  "q": 64,
+  "n": 50000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n50000",
+  "options": {},
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "n_scaling",
+  "tag": "n50000",
+  "method": "SAM",
+  "size": 50000,
+  "q": 64,
+  "n": 50000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n50000",
+  "options": {},
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "n_scaling",
+  "tag": "n50000",
+  "method": "biglasso",
+  "size": 50000,
+  "q": 64,
+  "n": 50000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n50000",
+  "options": {
+   "disk": true
+  },
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "n_scaling",
+  "tag": "n50000",
+  "method": "Celer",
+  "size": 50000,
+  "q": 64,
+  "n": 50000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n50000",
+  "options": {},
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "n_scaling",
+  "tag": "n50000",
+  "method": "skglm",
+  "size": 50000,
+  "q": 64,
+  "n": 50000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n50000",
+  "options": {},
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "n_scaling",
+  "tag": "n50000",
+  "method": "grpreg",
+  "size": 50000,
+  "q": 64,
+  "n": 50000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n50000",
+  "options": {},
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "n_scaling",
+  "tag": "n100000",
+  "method": "Chorus",
+  "size": 100000,
+  "q": 64,
+  "n": 100000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n100000",
+  "options": {
+   "disk": true,
+   "budget": 2147483648
+  },
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "n_scaling",
+  "tag": "n100000",
+  "method": "sparsegl",
+  "size": 100000,
+  "q": 64,
+  "n": 100000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n100000",
+  "options": {},
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "n_scaling",
+  "tag": "n100000",
+  "method": "SAM",
+  "size": 100000,
+  "q": 64,
+  "n": 100000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n100000",
+  "options": {},
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "n_scaling",
+  "tag": "n100000",
+  "method": "biglasso",
+  "size": 100000,
+  "q": 64,
+  "n": 100000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n100000",
+  "options": {
+   "disk": true
+  },
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "n_scaling",
+  "tag": "n100000",
+  "method": "Celer",
+  "size": 100000,
+  "q": 64,
+  "n": 100000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n100000",
+  "options": {},
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "n_scaling",
+  "tag": "n100000",
+  "method": "skglm",
+  "size": 100000,
+  "q": 64,
+  "n": 100000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n100000",
+  "options": {},
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "n_scaling",
+  "tag": "n100000",
+  "method": "grpreg",
+  "size": 100000,
+  "q": 64,
+  "n": 100000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n100000",
+  "options": {},
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "n_scaling",
+  "tag": "n200000",
+  "method": "Chorus",
+  "size": 200000,
+  "q": 64,
+  "n": 200000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n200000",
+  "options": {
+   "disk": true,
+   "budget": 2147483648
+  },
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "n_scaling",
+  "tag": "n200000",
+  "method": "sparsegl",
+  "size": 200000,
+  "q": 64,
+  "n": 200000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n200000",
+  "options": {},
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "n_scaling",
+  "tag": "n200000",
+  "method": "SAM",
+  "size": 200000,
+  "q": 64,
+  "n": 200000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n200000",
+  "options": {},
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "n_scaling",
+  "tag": "n200000",
+  "method": "biglasso",
+  "size": 200000,
+  "q": 64,
+  "n": 200000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n200000",
+  "options": {
+   "disk": true
+  },
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "n_scaling",
+  "tag": "n200000",
+  "method": "Celer",
+  "size": 200000,
+  "q": 64,
+  "n": 200000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n200000",
+  "options": {},
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "n_scaling",
+  "tag": "n200000",
+  "method": "skglm",
+  "size": 200000,
+  "q": 64,
+  "n": 200000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n200000",
+  "options": {},
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "n_scaling",
+  "tag": "n200000",
+  "method": "grpreg",
+  "size": 200000,
+  "q": 64,
+  "n": 200000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n200000",
+  "options": {},
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "n_scaling",
+  "tag": "n400000",
+  "method": "Chorus",
+  "size": 400000,
+  "q": 64,
+  "n": 400000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n400000",
+  "options": {
+   "disk": true,
+   "budget": 2147483648
+  },
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "n_scaling",
+  "tag": "n400000",
+  "method": "sparsegl",
+  "size": 400000,
+  "q": 64,
+  "n": 400000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n400000",
+  "options": {},
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "n_scaling",
+  "tag": "n400000",
+  "method": "SAM",
+  "size": 400000,
+  "q": 64,
+  "n": 400000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n400000",
+  "options": {},
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "n_scaling",
+  "tag": "n400000",
+  "method": "biglasso",
+  "size": 400000,
+  "q": 64,
+  "n": 400000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n400000",
+  "options": {
+   "disk": true
+  },
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "n_scaling",
+  "tag": "n400000",
+  "method": "Celer",
+  "size": 400000,
+  "q": 64,
+  "n": 400000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n400000",
+  "options": {},
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "n_scaling",
+  "tag": "n400000",
+  "method": "skglm",
+  "size": 400000,
+  "q": 64,
+  "n": 400000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n400000",
+  "options": {},
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "n_scaling",
+  "tag": "n400000",
+  "method": "grpreg",
+  "size": 400000,
+  "q": 64,
+  "n": 400000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n400000",
+  "options": {},
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "batch",
+  "tag": "B1",
+  "method": "Chorus",
+  "size": 1,
+  "q": 64,
+  "n": 50000,
+  "B": 1,
+  "case": "results/cases/disk_n50000",
+  "options": {
+   "disk": true,
+   "batch_size": 1
+  },
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "batch",
+  "tag": "B2",
+  "method": "Chorus",
+  "size": 2,
+  "q": 64,
+  "n": 50000,
+  "B": 2,
+  "case": "results/cases/disk_n50000",
+  "options": {
+   "disk": true,
+   "batch_size": 2
+  },
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "batch",
+  "tag": "B4",
+  "method": "Chorus",
+  "size": 4,
+  "q": 64,
+  "n": 50000,
+  "B": 4,
+  "case": "results/cases/disk_n50000",
+  "options": {
+   "disk": true,
+   "batch_size": 4
+  },
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "batch",
+  "tag": "B8",
+  "method": "Chorus",
+  "size": 8,
+  "q": 64,
+  "n": 50000,
+  "B": 8,
+  "case": "results/cases/disk_n50000",
+  "options": {
+   "disk": true,
+   "batch_size": 8
+  },
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "batch",
+  "tag": "B16",
+  "method": "Chorus",
+  "size": 16,
+  "q": 64,
+  "n": 50000,
+  "B": 16,
+  "case": "results/cases/disk_n50000",
+  "options": {
+   "disk": true,
+   "batch_size": 16
+  },
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "batch",
+  "tag": "B32",
+  "method": "Chorus",
+  "size": 32,
+  "q": 64,
+  "n": 50000,
+  "B": 32,
+  "case": "results/cases/disk_n50000",
+  "options": {
+   "disk": true,
+   "batch_size": 32
+  },
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "batch",
+  "tag": "B64",
+  "method": "Chorus",
+  "size": 64,
+  "q": 64,
+  "n": 50000,
+  "B": 64,
+  "case": "results/cases/disk_n50000",
+  "options": {
+   "disk": true,
+   "batch_size": 64
+  },
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "budget",
+  "tag": "M0.25",
+  "method": "Chorus",
+  "size": 0.25,
+  "q": 64,
+  "n": 200000,
+  "M": 268435456.0,
+  "case": "results/cases/disk_n200000",
+  "options": {
+   "disk": true,
+   "budget": 268435456
+  },
+  "reps": 1,
+  "budget_gb": 0.75,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "budget",
+  "tag": "M0.5",
+  "method": "Chorus",
+  "size": 0.5,
+  "q": 64,
+  "n": 200000,
+  "M": 536870912.0,
+  "case": "results/cases/disk_n200000",
+  "options": {
+   "disk": true,
+   "budget": 536870912
+  },
+  "reps": 1,
+  "budget_gb": 1.0,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "budget",
+  "tag": "M1.0",
+  "method": "Chorus",
+  "size": 1.0,
+  "q": 64,
+  "n": 200000,
+  "M": 1073741824.0,
+  "case": "results/cases/disk_n200000",
+  "options": {
+   "disk": true,
+   "budget": 1073741824
+  },
+  "reps": 1,
+  "budget_gb": 1.5,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "budget",
+  "tag": "M2.0",
+  "method": "Chorus",
+  "size": 2.0,
+  "q": 64,
+  "n": 200000,
+  "M": 2147483648.0,
+  "case": "results/cases/disk_n200000",
+  "options": {
+   "disk": true,
+   "budget": 2147483648
+  },
+  "reps": 1,
+  "budget_gb": 2.5,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "budget",
+  "tag": "M4.0",
+  "method": "Chorus",
+  "size": 4.0,
+  "q": 64,
+  "n": 200000,
+  "M": 4294967296.0,
+  "case": "results/cases/disk_n200000",
+  "options": {
+   "disk": true,
+   "budget": 4294967296
+  },
+  "reps": 1,
+  "budget_gb": 4.5,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "ablation_time",
+  "tag": "abl_full",
+  "method": "Chorus",
+  "size": 0,
+  "q": 64,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ]
+  },
+  "reps": 2,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "ablation_time",
+  "tag": "abl_no_strong",
+  "method": "Chorus",
+  "size": 0,
+  "q": 64,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ],
+   "strong": false
+  },
+  "reps": 2,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "ablation_time",
+  "tag": "abl_no_cap",
+  "method": "Chorus",
+  "size": 0,
+  "q": 64,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ],
+   "ws_cap": false
+  },
+  "reps": 2,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "ablation_time",
+  "tag": "abl_gram_only",
+  "method": "Chorus",
+  "size": 0,
+  "q": 64,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ],
+   "mode": "gram"
+  },
+  "reps": 2,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "ablation_time",
+  "tag": "abl_residual_only",
+  "method": "Chorus",
+  "size": 0,
+  "q": 64,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ],
+   "mode": "residual"
+  },
+  "reps": 2,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "ablation_time",
+  "tag": "abl_no_termination",
+  "method": "Chorus",
+  "size": 0,
+  "q": 64,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ],
+   "patience": null
+  },
+  "reps": 2,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "ablation_time",
+  "tag": "abl_stage1_only",
+  "method": "Chorus",
+  "size": 0,
+  "q": 64,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ],
+   "stage2": false
+  },
+  "reps": 2,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "ablation_time",
+  "tag": "abl_batch1",
+  "method": "Chorus",
+  "size": 0,
+  "q": 64,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ],
+   "batch_size": 1
+  },
+  "reps": 2,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "real",
+  "tag": "depmap64",
+  "method": "Chorus",
+  "size": 0,
+  "q": 64,
+  "case": "results/cases/depmap_c200",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ]
+  },
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "real",
+  "tag": "beijing",
+  "method": "Chorus",
+  "size": 0,
+  "q": 72,
+  "case": "results/cases/beijing",
+  "options": {},
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "real",
+  "tag": "depmap64",
+  "method": "sparsegl",
+  "size": 0,
+  "q": 64,
+  "case": "results/cases/depmap_c200",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ]
+  },
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "real",
+  "tag": "beijing",
+  "method": "sparsegl",
+  "size": 0,
+  "q": 72,
+  "case": "results/cases/beijing",
+  "options": {},
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "real",
+  "tag": "depmap64",
+  "method": "SAM",
+  "size": 0,
+  "q": 64,
+  "case": "results/cases/depmap_c200",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ]
+  },
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "real",
+  "tag": "beijing",
+  "method": "SAM",
+  "size": 0,
+  "q": 72,
+  "case": "results/cases/beijing",
+  "options": {},
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "real",
+  "tag": "depmap64",
+  "method": "biglasso",
+  "size": 0,
+  "q": 64,
+  "case": "results/cases/depmap_c200",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ]
+  },
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "real",
+  "tag": "beijing",
+  "method": "biglasso",
+  "size": 0,
+  "q": 72,
+  "case": "results/cases/beijing",
+  "options": {},
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "real",
+  "tag": "depmap64",
+  "method": "Celer",
+  "size": 0,
+  "q": 64,
+  "case": "results/cases/depmap_c200",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ]
+  },
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "real",
+  "tag": "beijing",
+  "method": "Celer",
+  "size": 0,
+  "q": 72,
+  "case": "results/cases/beijing",
+  "options": {},
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "real",
+  "tag": "depmap64",
+  "method": "skglm",
+  "size": 0,
+  "q": 64,
+  "case": "results/cases/depmap_c200",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ]
+  },
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "real",
+  "tag": "beijing",
+  "method": "skglm",
+  "size": 0,
+  "q": 72,
+  "case": "results/cases/beijing",
+  "options": {},
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "real",
+  "tag": "depmap64",
+  "method": "grpreg",
+  "size": 0,
+  "q": 64,
+  "case": "results/cases/depmap_c200",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ]
+  },
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "real",
+  "tag": "beijing",
+  "method": "grpreg",
+  "size": 0,
+  "q": 72,
+  "case": "results/cases/beijing",
+  "options": {},
+  "reps": 1,
+  "cap_seconds": 7200
+ }
+]

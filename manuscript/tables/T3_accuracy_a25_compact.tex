@@ -1,0 +1,22 @@
+\begin{table*}[t]
+\caption{Accuracy of all methods in the three simulation families, means over cases. Bold on a shaded cell: best. Underline: second best. $\dagger$: not significantly different from the best.}
+\label{tab:accuracy}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{1.0pt}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lrrrrrrrrrrrrrrrrrrrrr@{}}
+\toprule
+ & \multicolumn{7}{c}{Main grid, 100 cases} & \multicolumn{7}{c}{Robustness, 50 cases} & \multicolumn{7}{c}{Sharing, 55 cases}\\
+\cmidrule(lr){2-8}\cmidrule(lr){9-15}\cmidrule(lr){16-22}
+Method & F1 $\uparrow$ & MCC $\uparrow$ & AUPRC $\uparrow$ & FPR $\downarrow$ & Size $\downarrow$ & FEE $\downarrow$ & $R^2$ $\uparrow$ & F1 $\uparrow$ & MCC $\uparrow$ & AUPRC $\uparrow$ & FPR $\downarrow$ & Size $\downarrow$ & FEE $\downarrow$ & $R^2$ $\uparrow$ & F1 $\uparrow$ & MCC $\uparrow$ & AUPRC $\uparrow$ & FPR $\downarrow$ & Size $\downarrow$ & FEE $\downarrow$ & $R^2$ $\uparrow$\\
+\midrule
+\textbf{\sys{}} & \cellcolor{best}\textbf{.969} & \cellcolor{best}\textbf{.970} & \cellcolor{best}\textbf{.991} & \cellcolor{best}\textbf{.0015} & \cellcolor{best}\textbf{.22} & \cellcolor{best}\textbf{.064} & \cellcolor{best}\textbf{.614} & \cellcolor{best}\textbf{.973} & \cellcolor{best}\textbf{.974} & \cellcolor{best}\textbf{.994} & \cellcolor{best}\textbf{.0020} & \cellcolor{best}\textbf{.31} & \cellcolor{best}\textbf{.058} & \cellcolor{best}\textbf{.626} & \cellcolor{best}\textbf{.977} & \cellcolor{best}\textbf{.977} & \cellcolor{best}\textbf{.996} & \cellcolor{best}\textbf{.0013} & \cellcolor{best}\textbf{.22} & \cellcolor{best}\textbf{.058} & \cellcolor{best}\textbf{.621}\\
+Adaptive GL & \underline{.908} & \underline{.913} & .985 & \underline{.0073} & \underline{1.34} & \underline{.069} & \underline{.611} & \underline{.905} & \underline{.909} & .991 & \underline{.0075} & \underline{1.58} & \underline{.061} & \underline{.624} & \underline{.914} & \underline{.917} & .993 & \underline{.0065} & \underline{1.21} & \underline{.059}$^\dagger$ & \underline{.620}$^\dagger$\\
+GMCP & .719 & .746 & \underline{.987} & .0326 & 6.27 & .074 & .608 & .708 & .738 & \underline{.993}$^\dagger$ & .0298 & 7.22 & .065 & .621 & .723 & .749 & \underline{.994}$^\dagger$ & .0323 & 6.23 & .064 & .618\\
+SGL & .292 & .376 & .981 & .1711 & 33.17 & .125 & .578 & .275 & .364 & .988 & .1582 & 37.53 & .120 & .585 & .290 & .374 & .992 & .1738 & 33.71 & .114 & .585\\
+SpAM & .296 & .380 & .981 & .1681 & 32.59 & .116 & .583 & .282 & .370 & .989 & .1527 & 36.51 & .111 & .591 & .294 & .378 & .992 & .1700 & 32.96 & .105 & .591\\
+GL & .290 & .374 & .980 & .1723 & 33.41 & .127 & .577 & .275 & .364 & .988 & .1590 & 37.57 & .122 & .584 & .288 & .372 & .992 & .1748 & 33.89 & .115 & .584\\
+MTL & .069 & .066 & .618 & .8590 & 166.65 & .198 & .532 & .063 & .065 & .668 & .7985 & 208.34 & .205 & .528 & .072 & .067 & .547 & .8288 & 160.67 & .252 & .493\\
+\bottomrule
+\end{tabular*}
+\end{table*}

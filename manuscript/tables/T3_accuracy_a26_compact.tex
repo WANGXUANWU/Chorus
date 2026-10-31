@@ -1,0 +1,22 @@
+\begin{table*}[t]
+\caption{Accuracy of all methods in the three simulation families, means over cases. Bold: best. $\dagger$: not significantly different from the best. Size: size error.}
+\label{tab:accuracy}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{1.0pt}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lrrrrrrrrrrrrrrrrrrrrr@{}}
+\toprule
+ & \multicolumn{7}{c}{Main grid, 100 cases} & \multicolumn{7}{c}{Robustness, 50 cases} & \multicolumn{7}{c}{Sharing, 55 cases}\\
+\cmidrule(lr){2-8}\cmidrule(lr){9-15}\cmidrule(lr){16-22}
+Method & F1 $\uparrow$ & MCC $\uparrow$ & AUPRC $\uparrow$ & FPR $\downarrow$ & Size $\downarrow$ & FEE $\downarrow$ & $R^2$ $\uparrow$ & F1 $\uparrow$ & MCC $\uparrow$ & AUPRC $\uparrow$ & FPR $\downarrow$ & Size $\downarrow$ & FEE $\downarrow$ & $R^2$ $\uparrow$ & F1 $\uparrow$ & MCC $\uparrow$ & AUPRC $\uparrow$ & FPR $\downarrow$ & Size $\downarrow$ & FEE $\downarrow$ & $R^2$ $\uparrow$\\
+\midrule
+\sys{} & \textbf{.969} & \textbf{.970} & \textbf{.991} & \textbf{.0015} & \textbf{.22} & \textbf{.064} & \textbf{.614} & \textbf{.973} & \textbf{.974} & \textbf{.994} & \textbf{.0020} & \textbf{.31} & \textbf{.058} & \textbf{.626} & \textbf{.977} & \textbf{.977} & \textbf{.996} & \textbf{.0013} & \textbf{.22} & \textbf{.058} & \textbf{.621}\\
+Adaptive GL & .908 & .913 & .985 & .0073 & 1.34 & .069 & .611 & .905 & .909 & .991 & .0075 & 1.58 & .061 & .624 & .914 & .917 & .993 & .0065 & 1.21 & .059$^\dagger$ & .620$^\dagger$\\
+GMCP & .719 & .746 & .987 & .0326 & 6.27 & .074 & .608 & .708 & .738 & .993$^\dagger$ & .0298 & 7.22 & .065 & .621 & .723 & .749 & .994$^\dagger$ & .0323 & 6.23 & .064 & .618\\
+SGL & .292 & .376 & .981 & .1711 & 33.17 & .125 & .578 & .275 & .364 & .988 & .1582 & 37.53 & .120 & .585 & .290 & .374 & .992 & .1738 & 33.71 & .114 & .585\\
+SpAM & .296 & .380 & .981 & .1681 & 32.59 & .116 & .583 & .282 & .370 & .989 & .1527 & 36.51 & .111 & .591 & .294 & .378 & .992 & .1700 & 32.96 & .105 & .591\\
+GL & .290 & .374 & .980 & .1723 & 33.41 & .127 & .577 & .275 & .364 & .988 & .1590 & 37.57 & .122 & .584 & .288 & .372 & .992 & .1748 & 33.89 & .115 & .584\\
+MTL & .069 & .066 & .618 & .8590 & 166.65 & .198 & .532 & .063 & .065 & .668 & .7985 & 208.34 & .205 & .528 & .072 & .067 & .547 & .8288 & 160.67 & .252 & .493\\
+\bottomrule
+\end{tabular*}
+\end{table*}

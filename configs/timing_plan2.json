@@ -1,0 +1,1539 @@
+[
+ {
+  "experiment": "e1_gl",
+  "tag": "q1_adelie",
+  "method": "adelie",
+  "variant": "adelie",
+  "size": 1,
+  "q": 1,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    1
+   ]
+  },
+  "reps": 3,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "e1_gl",
+  "tag": "q1_chorus_seq",
+  "method": "Chorus",
+  "variant": "chorus_seq",
+  "size": 1,
+  "q": 1,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    1
+   ],
+   "stage2": false,
+   "crossfit": false,
+   "patience": null,
+   "relax": false,
+   "batch_size": 1
+  },
+  "reps": 3,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e1_gl",
+  "tag": "q1_chorus_batched",
+  "method": "Chorus",
+  "variant": "chorus_batched",
+  "size": 1,
+  "q": 1,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    1
+   ],
+   "stage2": false,
+   "crossfit": false,
+   "patience": null,
+   "relax": false,
+   "batch_size": 64
+  },
+  "reps": 3,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e1_gl",
+  "tag": "q1_chorus_batched_stop",
+  "method": "Chorus",
+  "variant": "chorus_batched_stop",
+  "size": 1,
+  "q": 1,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    1
+   ],
+   "stage2": false,
+   "crossfit": false,
+   "patience": 5,
+   "relax": false,
+   "batch_size": 64
+  },
+  "reps": 3,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e1_full",
+  "tag": "q1_full_seq",
+  "method": "Chorus",
+  "variant": "full_seq",
+  "size": 1,
+  "q": 1,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    1
+   ],
+   "batch_size": 1,
+   "stage2_shared": false
+  },
+  "reps": 3,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e1_full",
+  "tag": "q1_full_batched",
+  "method": "Chorus",
+  "variant": "full_batched",
+  "size": 1,
+  "q": 1,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    1
+   ],
+   "batch_size": 64,
+   "stage2_shared": false
+  },
+  "reps": 3,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e1_full",
+  "tag": "q1_full_shared",
+  "method": "Chorus",
+  "variant": "full_shared",
+  "size": 1,
+  "q": 1,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    1
+   ],
+   "batch_size": 64
+  },
+  "reps": 3,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e1_gl",
+  "tag": "q4_adelie",
+  "method": "adelie",
+  "variant": "adelie",
+  "size": 4,
+  "q": 4,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    4
+   ]
+  },
+  "reps": 3,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "e1_gl",
+  "tag": "q4_chorus_seq",
+  "method": "Chorus",
+  "variant": "chorus_seq",
+  "size": 4,
+  "q": 4,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    4
+   ],
+   "stage2": false,
+   "crossfit": false,
+   "patience": null,
+   "relax": false,
+   "batch_size": 1
+  },
+  "reps": 3,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e1_gl",
+  "tag": "q4_chorus_batched",
+  "method": "Chorus",
+  "variant": "chorus_batched",
+  "size": 4,
+  "q": 4,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    4
+   ],
+   "stage2": false,
+   "crossfit": false,
+   "patience": null,
+   "relax": false,
+   "batch_size": 64
+  },
+  "reps": 3,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e1_gl",
+  "tag": "q4_chorus_batched_stop",
+  "method": "Chorus",
+  "variant": "chorus_batched_stop",
+  "size": 4,
+  "q": 4,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    4
+   ],
+   "stage2": false,
+   "crossfit": false,
+   "patience": 5,
+   "relax": false,
+   "batch_size": 64
+  },
+  "reps": 3,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e1_full",
+  "tag": "q4_full_seq",
+  "method": "Chorus",
+  "variant": "full_seq",
+  "size": 4,
+  "q": 4,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    4
+   ],
+   "batch_size": 1,
+   "stage2_shared": false
+  },
+  "reps": 3,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e1_full",
+  "tag": "q4_full_batched",
+  "method": "Chorus",
+  "variant": "full_batched",
+  "size": 4,
+  "q": 4,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    4
+   ],
+   "batch_size": 64,
+   "stage2_shared": false
+  },
+  "reps": 3,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e1_full",
+  "tag": "q4_full_shared",
+  "method": "Chorus",
+  "variant": "full_shared",
+  "size": 4,
+  "q": 4,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    4
+   ],
+   "batch_size": 64
+  },
+  "reps": 3,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e1_gl",
+  "tag": "q16_adelie",
+  "method": "adelie",
+  "variant": "adelie",
+  "size": 16,
+  "q": 16,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    16
+   ]
+  },
+  "reps": 3,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "e1_gl",
+  "tag": "q16_chorus_seq",
+  "method": "Chorus",
+  "variant": "chorus_seq",
+  "size": 16,
+  "q": 16,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    16
+   ],
+   "stage2": false,
+   "crossfit": false,
+   "patience": null,
+   "relax": false,
+   "batch_size": 1
+  },
+  "reps": 3,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e1_gl",
+  "tag": "q16_chorus_batched",
+  "method": "Chorus",
+  "variant": "chorus_batched",
+  "size": 16,
+  "q": 16,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    16
+   ],
+   "stage2": false,
+   "crossfit": false,
+   "patience": null,
+   "relax": false,
+   "batch_size": 64
+  },
+  "reps": 3,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e1_gl",
+  "tag": "q16_chorus_batched_stop",
+  "method": "Chorus",
+  "variant": "chorus_batched_stop",
+  "size": 16,
+  "q": 16,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    16
+   ],
+   "stage2": false,
+   "crossfit": false,
+   "patience": 5,
+   "relax": false,
+   "batch_size": 64
+  },
+  "reps": 3,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e1_full",
+  "tag": "q16_full_seq",
+  "method": "Chorus",
+  "variant": "full_seq",
+  "size": 16,
+  "q": 16,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    16
+   ],
+   "batch_size": 1,
+   "stage2_shared": false
+  },
+  "reps": 3,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e1_full",
+  "tag": "q16_full_batched",
+  "method": "Chorus",
+  "variant": "full_batched",
+  "size": 16,
+  "q": 16,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    16
+   ],
+   "batch_size": 64,
+   "stage2_shared": false
+  },
+  "reps": 3,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e1_full",
+  "tag": "q16_full_shared",
+  "method": "Chorus",
+  "variant": "full_shared",
+  "size": 16,
+  "q": 16,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    16
+   ],
+   "batch_size": 64
+  },
+  "reps": 3,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e1_gl",
+  "tag": "q64_adelie",
+  "method": "adelie",
+  "variant": "adelie",
+  "size": 64,
+  "q": 64,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ]
+  },
+  "reps": 1,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "e1_gl",
+  "tag": "q64_chorus_seq",
+  "method": "Chorus",
+  "variant": "chorus_seq",
+  "size": 64,
+  "q": 64,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ],
+   "stage2": false,
+   "crossfit": false,
+   "patience": null,
+   "relax": false,
+   "batch_size": 1
+  },
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e1_gl",
+  "tag": "q64_chorus_batched",
+  "method": "Chorus",
+  "variant": "chorus_batched",
+  "size": 64,
+  "q": 64,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ],
+   "stage2": false,
+   "crossfit": false,
+   "patience": null,
+   "relax": false,
+   "batch_size": 64
+  },
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e1_gl",
+  "tag": "q64_chorus_batched_stop",
+  "method": "Chorus",
+  "variant": "chorus_batched_stop",
+  "size": 64,
+  "q": 64,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ],
+   "stage2": false,
+   "crossfit": false,
+   "patience": 5,
+   "relax": false,
+   "batch_size": 64
+  },
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e1_full",
+  "tag": "q64_full_seq",
+  "method": "Chorus",
+  "variant": "full_seq",
+  "size": 64,
+  "q": 64,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ],
+   "batch_size": 1,
+   "stage2_shared": false
+  },
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e1_full",
+  "tag": "q64_full_batched",
+  "method": "Chorus",
+  "variant": "full_batched",
+  "size": 64,
+  "q": 64,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ],
+   "batch_size": 64,
+   "stage2_shared": false
+  },
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e1_full",
+  "tag": "q64_full_shared",
+  "method": "Chorus",
+  "variant": "full_shared",
+  "size": 64,
+  "q": 64,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ],
+   "batch_size": 64
+  },
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e1_gl",
+  "tag": "q256_adelie",
+  "method": "adelie",
+  "variant": "adelie",
+  "size": 256,
+  "q": 256,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    256
+   ]
+  },
+  "reps": 1,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "e1_gl",
+  "tag": "q256_chorus_seq",
+  "method": "Chorus",
+  "variant": "chorus_seq",
+  "size": 256,
+  "q": 256,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    256
+   ],
+   "stage2": false,
+   "crossfit": false,
+   "patience": null,
+   "relax": false,
+   "batch_size": 1
+  },
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e1_gl",
+  "tag": "q256_chorus_batched",
+  "method": "Chorus",
+  "variant": "chorus_batched",
+  "size": 256,
+  "q": 256,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    256
+   ],
+   "stage2": false,
+   "crossfit": false,
+   "patience": null,
+   "relax": false,
+   "batch_size": 64
+  },
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e1_gl",
+  "tag": "q256_chorus_batched_stop",
+  "method": "Chorus",
+  "variant": "chorus_batched_stop",
+  "size": 256,
+  "q": 256,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    256
+   ],
+   "stage2": false,
+   "crossfit": false,
+   "patience": 5,
+   "relax": false,
+   "batch_size": 64
+  },
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e1_full",
+  "tag": "q256_full_seq",
+  "method": "Chorus",
+  "variant": "full_seq",
+  "size": 256,
+  "q": 256,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    256
+   ],
+   "batch_size": 1,
+   "stage2_shared": false
+  },
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e1_full",
+  "tag": "q256_full_batched",
+  "method": "Chorus",
+  "variant": "full_batched",
+  "size": 256,
+  "q": 256,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    256
+   ],
+   "batch_size": 64,
+   "stage2_shared": false
+  },
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e1_full",
+  "tag": "q256_full_shared",
+  "method": "Chorus",
+  "variant": "full_shared",
+  "size": 256,
+  "q": 256,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    256
+   ],
+   "batch_size": 64
+  },
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e1_bcap",
+  "tag": "q256_B128_full_shared_B128",
+  "method": "Chorus",
+  "variant": "full_shared_B128",
+  "size": 128,
+  "q": 256,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    256
+   ],
+   "batch_size": 128
+  },
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e1_bcap",
+  "tag": "q256_B256_full_shared_B256",
+  "method": "Chorus",
+  "variant": "full_shared_B256",
+  "size": 256,
+  "q": 256,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    256
+   ],
+   "batch_size": 256
+  },
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e2_rows",
+  "tag": "n25000_full",
+  "method": "Chorus",
+  "variant": "full",
+  "size": 25000,
+  "q": 64,
+  "n": 25000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n25000",
+  "options": {
+   "disk": true,
+   "budget": 2147483648
+  },
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 10800
+ },
+ {
+  "experiment": "e2_rows",
+  "tag": "n50000_full",
+  "method": "Chorus",
+  "variant": "full",
+  "size": 50000,
+  "q": 64,
+  "n": 50000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n50000",
+  "options": {
+   "disk": true,
+   "budget": 2147483648
+  },
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 10800
+ },
+ {
+  "experiment": "e2_rows",
+  "tag": "n100000_full",
+  "method": "Chorus",
+  "variant": "full",
+  "size": 100000,
+  "q": 64,
+  "n": 100000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n100000",
+  "options": {
+   "disk": true,
+   "budget": 2147483648
+  },
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 10800
+ },
+ {
+  "experiment": "e2_rows",
+  "tag": "n200000_full",
+  "method": "Chorus",
+  "variant": "full",
+  "size": 200000,
+  "q": 64,
+  "n": 200000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n200000",
+  "options": {
+   "disk": true,
+   "budget": 2147483648
+  },
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 10800
+ },
+ {
+  "experiment": "e2_rows",
+  "tag": "n400000_full",
+  "method": "Chorus",
+  "variant": "full",
+  "size": 400000,
+  "q": 64,
+  "n": 400000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n400000",
+  "options": {
+   "disk": true,
+   "budget": 2147483648
+  },
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 10800
+ },
+ {
+  "experiment": "e2_rows",
+  "tag": "n25000_adelie",
+  "method": "adelie",
+  "variant": "adelie",
+  "size": 25000,
+  "q": 64,
+  "n": 25000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n25000",
+  "options": {},
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "e2_rows",
+  "tag": "n50000_adelie",
+  "method": "adelie",
+  "variant": "adelie",
+  "size": 50000,
+  "q": 64,
+  "n": 50000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n50000",
+  "options": {},
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "e2_rows",
+  "tag": "n100000_adelie",
+  "method": "adelie",
+  "variant": "adelie",
+  "size": 100000,
+  "q": 64,
+  "n": 100000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n100000",
+  "options": {},
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "e2_rows",
+  "tag": "n200000_adelie",
+  "method": "adelie",
+  "variant": "adelie",
+  "size": 200000,
+  "q": 64,
+  "n": 200000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n200000",
+  "options": {},
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "e2_rows",
+  "tag": "n400000_adelie",
+  "method": "adelie",
+  "variant": "adelie",
+  "size": 400000,
+  "q": 64,
+  "n": 400000,
+  "M": 2147483648,
+  "case": "results/cases/disk_n400000",
+  "options": {},
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "e3_budget",
+  "tag": "M0.5_full",
+  "method": "Chorus",
+  "variant": "full",
+  "size": 0.5,
+  "q": 64,
+  "n": 200000,
+  "M": 536870912.0,
+  "case": "results/cases/disk_n200000",
+  "options": {
+   "disk": true,
+   "budget": 536870912
+  },
+  "reps": 1,
+  "budget_gb": 0.5,
+  "cap_seconds": 10800
+ },
+ {
+  "experiment": "e3_stress",
+  "tag": "S0.5_full",
+  "method": "Chorus",
+  "variant": "full",
+  "size": 0.5,
+  "q": 64,
+  "n": 25000,
+  "M": 536870912.0,
+  "case": "results/cases/disk_stress",
+  "options": {
+   "disk": true,
+   "budget": 536870912
+  },
+  "reps": 1,
+  "budget_gb": 0.5,
+  "cap_seconds": 10800
+ },
+ {
+  "experiment": "e3_budget",
+  "tag": "M0.75_full",
+  "method": "Chorus",
+  "variant": "full",
+  "size": 0.75,
+  "q": 64,
+  "n": 200000,
+  "M": 805306368.0,
+  "case": "results/cases/disk_n200000",
+  "options": {
+   "disk": true,
+   "budget": 805306368
+  },
+  "reps": 1,
+  "budget_gb": 0.75,
+  "cap_seconds": 10800
+ },
+ {
+  "experiment": "e3_stress",
+  "tag": "S0.75_full",
+  "method": "Chorus",
+  "variant": "full",
+  "size": 0.75,
+  "q": 64,
+  "n": 25000,
+  "M": 805306368.0,
+  "case": "results/cases/disk_stress",
+  "options": {
+   "disk": true,
+   "budget": 805306368
+  },
+  "reps": 1,
+  "budget_gb": 0.75,
+  "cap_seconds": 10800
+ },
+ {
+  "experiment": "e3_budget",
+  "tag": "M1.0_full",
+  "method": "Chorus",
+  "variant": "full",
+  "size": 1.0,
+  "q": 64,
+  "n": 200000,
+  "M": 1073741824.0,
+  "case": "results/cases/disk_n200000",
+  "options": {
+   "disk": true,
+   "budget": 1073741824
+  },
+  "reps": 1,
+  "budget_gb": 1.0,
+  "cap_seconds": 10800
+ },
+ {
+  "experiment": "e3_stress",
+  "tag": "S1.0_full",
+  "method": "Chorus",
+  "variant": "full",
+  "size": 1.0,
+  "q": 64,
+  "n": 25000,
+  "M": 1073741824.0,
+  "case": "results/cases/disk_stress",
+  "options": {
+   "disk": true,
+   "budget": 1073741824
+  },
+  "reps": 1,
+  "budget_gb": 1.0,
+  "cap_seconds": 10800
+ },
+ {
+  "experiment": "e3_budget",
+  "tag": "M1.5_full",
+  "method": "Chorus",
+  "variant": "full",
+  "size": 1.5,
+  "q": 64,
+  "n": 200000,
+  "M": 1610612736.0,
+  "case": "results/cases/disk_n200000",
+  "options": {
+   "disk": true,
+   "budget": 1610612736
+  },
+  "reps": 1,
+  "budget_gb": 1.5,
+  "cap_seconds": 10800
+ },
+ {
+  "experiment": "e3_stress",
+  "tag": "S1.5_full",
+  "method": "Chorus",
+  "variant": "full",
+  "size": 1.5,
+  "q": 64,
+  "n": 25000,
+  "M": 1610612736.0,
+  "case": "results/cases/disk_stress",
+  "options": {
+   "disk": true,
+   "budget": 1610612736
+  },
+  "reps": 1,
+  "budget_gb": 1.5,
+  "cap_seconds": 10800
+ },
+ {
+  "experiment": "e3_budget",
+  "tag": "M2.0_full",
+  "method": "Chorus",
+  "variant": "full",
+  "size": 2.0,
+  "q": 64,
+  "n": 200000,
+  "M": 2147483648.0,
+  "case": "results/cases/disk_n200000",
+  "options": {
+   "disk": true,
+   "budget": 2147483648
+  },
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 10800
+ },
+ {
+  "experiment": "e3_stress",
+  "tag": "S2.0_full",
+  "method": "Chorus",
+  "variant": "full",
+  "size": 2.0,
+  "q": 64,
+  "n": 25000,
+  "M": 2147483648.0,
+  "case": "results/cases/disk_stress",
+  "options": {
+   "disk": true,
+   "budget": 2147483648
+  },
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 10800
+ },
+ {
+  "experiment": "e3_budget",
+  "tag": "M4.0_full",
+  "method": "Chorus",
+  "variant": "full",
+  "size": 4.0,
+  "q": 64,
+  "n": 200000,
+  "M": 4294967296.0,
+  "case": "results/cases/disk_n200000",
+  "options": {
+   "disk": true,
+   "budget": 4294967296
+  },
+  "reps": 1,
+  "budget_gb": 4.0,
+  "cap_seconds": 10800
+ },
+ {
+  "experiment": "e3_stress",
+  "tag": "S4.0_full",
+  "method": "Chorus",
+  "variant": "full",
+  "size": 4.0,
+  "q": 64,
+  "n": 25000,
+  "M": 4294967296.0,
+  "case": "results/cases/disk_stress",
+  "options": {
+   "disk": true,
+   "budget": 4294967296
+  },
+  "reps": 1,
+  "budget_gb": 4.0,
+  "cap_seconds": 10800
+ },
+ {
+  "experiment": "e4_batch",
+  "tag": "B1_full",
+  "method": "Chorus",
+  "variant": "full",
+  "size": 1,
+  "q": 64,
+  "n": 50000,
+  "B": 1,
+  "case": "results/cases/disk_n50000",
+  "options": {
+   "disk": true,
+   "batch_size": 1,
+   "budget": 2147483648
+  },
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 10800
+ },
+ {
+  "experiment": "e4_batch",
+  "tag": "B4_full",
+  "method": "Chorus",
+  "variant": "full",
+  "size": 4,
+  "q": 64,
+  "n": 50000,
+  "B": 4,
+  "case": "results/cases/disk_n50000",
+  "options": {
+   "disk": true,
+   "batch_size": 4,
+   "budget": 2147483648
+  },
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 10800
+ },
+ {
+  "experiment": "e4_batch",
+  "tag": "B16_full",
+  "method": "Chorus",
+  "variant": "full",
+  "size": 16,
+  "q": 64,
+  "n": 50000,
+  "B": 16,
+  "case": "results/cases/disk_n50000",
+  "options": {
+   "disk": true,
+   "batch_size": 16,
+   "budget": 2147483648
+  },
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 10800
+ },
+ {
+  "experiment": "e4_batch",
+  "tag": "B64_full",
+  "method": "Chorus",
+  "variant": "full",
+  "size": 64,
+  "q": 64,
+  "n": 50000,
+  "B": 64,
+  "case": "results/cases/disk_n50000",
+  "options": {
+   "disk": true,
+   "batch_size": 64,
+   "budget": 2147483648
+  },
+  "reps": 1,
+  "budget_gb": 2.0,
+  "cap_seconds": 10800
+ },
+ {
+  "experiment": "e1_gl",
+  "tag": "depmap64_adelie",
+  "method": "adelie",
+  "variant": "adelie",
+  "size": 0,
+  "q": 64,
+  "case": "results/cases/depmap_c200",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ]
+  },
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e1_gl",
+  "tag": "depmap64_chorus_seq",
+  "method": "Chorus",
+  "variant": "chorus_seq",
+  "size": 0,
+  "q": 64,
+  "case": "results/cases/depmap_c200",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ],
+   "stage2": false,
+   "crossfit": false,
+   "patience": null,
+   "relax": false,
+   "batch_size": 1
+  },
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e1_gl",
+  "tag": "depmap64_chorus_batched",
+  "method": "Chorus",
+  "variant": "chorus_batched",
+  "size": 0,
+  "q": 64,
+  "case": "results/cases/depmap_c200",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ],
+   "stage2": false,
+   "crossfit": false,
+   "patience": null,
+   "relax": false,
+   "batch_size": 64
+  },
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e1_gl",
+  "tag": "depmap64_chorus_batched_stop",
+  "method": "Chorus",
+  "variant": "chorus_batched_stop",
+  "size": 0,
+  "q": 64,
+  "case": "results/cases/depmap_c200",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ],
+   "stage2": false,
+   "crossfit": false,
+   "patience": 5,
+   "relax": false,
+   "batch_size": 64
+  },
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e1_full",
+  "tag": "depmap64_full_seq",
+  "method": "Chorus",
+  "variant": "full_seq",
+  "size": 0,
+  "q": 64,
+  "case": "results/cases/depmap_c200",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ],
+   "batch_size": 1,
+   "stage2_shared": false
+  },
+  "reps": 1,
+  "cap_seconds": 10800
+ },
+ {
+  "experiment": "e1_full",
+  "tag": "depmap64_full_batched",
+  "method": "Chorus",
+  "variant": "full_batched",
+  "size": 0,
+  "q": 64,
+  "case": "results/cases/depmap_c200",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ],
+   "batch_size": 64,
+   "stage2_shared": false
+  },
+  "reps": 1,
+  "cap_seconds": 10800
+ },
+ {
+  "experiment": "e1_full",
+  "tag": "depmap64_full_shared",
+  "method": "Chorus",
+  "variant": "full_shared",
+  "size": 0,
+  "q": 64,
+  "case": "results/cases/depmap_c200",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ],
+   "batch_size": 64
+  },
+  "reps": 1,
+  "cap_seconds": 10800
+ },
+ {
+  "experiment": "e1_gl",
+  "tag": "beijing_adelie",
+  "method": "adelie",
+  "variant": "adelie",
+  "size": 0,
+  "q": 72,
+  "case": "results/cases/beijing",
+  "options": {},
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e1_gl",
+  "tag": "beijing_chorus_seq",
+  "method": "Chorus",
+  "variant": "chorus_seq",
+  "size": 0,
+  "q": 72,
+  "case": "results/cases/beijing",
+  "options": {
+   "stage2": false,
+   "crossfit": false,
+   "patience": null,
+   "relax": false,
+   "batch_size": 1
+  },
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e1_gl",
+  "tag": "beijing_chorus_batched",
+  "method": "Chorus",
+  "variant": "chorus_batched",
+  "size": 0,
+  "q": 72,
+  "case": "results/cases/beijing",
+  "options": {
+   "stage2": false,
+   "crossfit": false,
+   "patience": null,
+   "relax": false,
+   "batch_size": 64
+  },
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e1_gl",
+  "tag": "beijing_chorus_batched_stop",
+  "method": "Chorus",
+  "variant": "chorus_batched_stop",
+  "size": 0,
+  "q": 72,
+  "case": "results/cases/beijing",
+  "options": {
+   "stage2": false,
+   "crossfit": false,
+   "patience": 5,
+   "relax": false,
+   "batch_size": 64
+  },
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e1_full",
+  "tag": "beijing_full_seq",
+  "method": "Chorus",
+  "variant": "full_seq",
+  "size": 0,
+  "q": 72,
+  "case": "results/cases/beijing",
+  "options": {
+   "val_cluster": "week",
+   "batch_size": 1,
+   "stage2_shared": false
+  },
+  "reps": 1,
+  "cap_seconds": 10800
+ },
+ {
+  "experiment": "e1_full",
+  "tag": "beijing_full_batched",
+  "method": "Chorus",
+  "variant": "full_batched",
+  "size": 0,
+  "q": 72,
+  "case": "results/cases/beijing",
+  "options": {
+   "val_cluster": "week",
+   "batch_size": 64,
+   "stage2_shared": false
+  },
+  "reps": 1,
+  "cap_seconds": 10800
+ },
+ {
+  "experiment": "e1_full",
+  "tag": "beijing_full_shared",
+  "method": "Chorus",
+  "variant": "full_shared",
+  "size": 0,
+  "q": 72,
+  "case": "results/cases/beijing",
+  "options": {
+   "val_cluster": "week",
+   "batch_size": 64
+  },
+  "reps": 1,
+  "cap_seconds": 10800
+ },
+ {
+  "experiment": "e5_real",
+  "tag": "depmap64_Chorus",
+  "method": "Chorus",
+  "variant": "Chorus",
+  "size": 0,
+  "q": 64,
+  "case": "results/cases/depmap_c200",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ]
+  },
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e5_real",
+  "tag": "beijing_Chorus",
+  "method": "Chorus",
+  "variant": "Chorus",
+  "size": 0,
+  "q": 72,
+  "case": "results/cases/beijing",
+  "options": {
+   "val_cluster": "week"
+  },
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e5_real",
+  "tag": "depmap64_adelie",
+  "method": "adelie",
+  "variant": "adelie",
+  "size": 0,
+  "q": 64,
+  "case": "results/cases/depmap_c200",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ]
+  },
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e5_real",
+  "tag": "beijing_adelie",
+  "method": "adelie",
+  "variant": "adelie",
+  "size": 0,
+  "q": 72,
+  "case": "results/cases/beijing",
+  "options": {},
+  "reps": 1,
+  "cap_seconds": 7200
+ }
+]

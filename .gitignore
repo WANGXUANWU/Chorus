@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+data/
+results/cases/
+results/formal/
+results/real_a22/
+*.npz
+*.f64
+/fig*.pdf
+/fig*.png

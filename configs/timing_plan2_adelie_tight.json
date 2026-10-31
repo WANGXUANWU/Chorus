@@ -1,0 +1,129 @@
+[
+ {
+  "experiment": "e1_gl",
+  "tag": "q1_adelie_tight",
+  "method": "adelie",
+  "variant": "adelie_tight",
+  "size": 1,
+  "q": 1,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    1
+   ],
+   "adelie_tol": 1e-13
+  },
+  "reps": 1,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "e1_gl",
+  "tag": "q4_adelie_tight",
+  "method": "adelie",
+  "variant": "adelie_tight",
+  "size": 4,
+  "q": 4,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    4
+   ],
+   "adelie_tol": 1e-13
+  },
+  "reps": 1,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "e1_gl",
+  "tag": "q16_adelie_tight",
+  "method": "adelie",
+  "variant": "adelie_tight",
+  "size": 16,
+  "q": 16,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    16
+   ],
+   "adelie_tol": 1e-13
+  },
+  "reps": 1,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "e1_gl",
+  "tag": "q64_adelie_tight",
+  "method": "adelie",
+  "variant": "adelie_tight",
+  "size": 64,
+  "q": 64,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ],
+   "adelie_tol": 1e-13
+  },
+  "reps": 1,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "e1_gl",
+  "tag": "q256_adelie_tight",
+  "method": "adelie",
+  "variant": "adelie_tight",
+  "size": 256,
+  "q": 256,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    256
+   ],
+   "adelie_tol": 1e-13
+  },
+  "reps": 1,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "e1_gl",
+  "tag": "depmap64_adelie_tight",
+  "method": "adelie",
+  "variant": "adelie_tight",
+  "size": 0,
+  "q": 64,
+  "case": "results/cases/depmap_c200",
+  "options": {
+   "resp_range": [
+    0,
+    64
+   ],
+   "adelie_tol": 1e-13
+  },
+  "reps": 1,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "e1_gl",
+  "tag": "beijing_adelie_tight",
+  "method": "adelie",
+  "variant": "adelie_tight",
+  "size": 0,
+  "q": 72,
+  "case": "results/cases/beijing",
+  "options": {
+   "adelie_tol": 1e-13
+  },
+  "reps": 1,
+  "cap_seconds": 7200
+ }
+]

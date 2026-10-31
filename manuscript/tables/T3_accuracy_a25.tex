@@ -1,0 +1,39 @@
+\begin{table*}[t]
+\caption{Accuracy of all methods in the three simulation families, mean $\pm$ standard error over cases. Bold on a shaded cell: best. Underline: second best. $\dagger$: not significantly different from the best.}
+\label{tab:accuracy}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{2.0pt}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lrrrrrrr@{}}
+\toprule
+Metric & \textbf{\sys{}} & Adaptive GL & GMCP & SGL & SpAM & GL & MTL\\
+\midrule
+\multicolumn{8}{@{}l}{\textit{Main grid, 100 cases}}\\
+\quad F1 $\uparrow$ & \cellcolor{best}\textbf{.969}{\tiny$\,\pm$.004} & \underline{.908}{\tiny$\,\pm$.008} & .719{\tiny$\,\pm$.010} & .292{\tiny$\,\pm$.002} & .296{\tiny$\,\pm$.003} & .290{\tiny$\,\pm$.003} & .069{\tiny$\,\pm$.001}\\
+\quad MCC $\uparrow$ & \cellcolor{best}\textbf{.970}{\tiny$\,\pm$.004} & \underline{.913}{\tiny$\,\pm$.008} & .746{\tiny$\,\pm$.009} & .376{\tiny$\,\pm$.002} & .380{\tiny$\,\pm$.002} & .374{\tiny$\,\pm$.002} & .066{\tiny$\,\pm$.004}\\
+\quad AUPRC $\uparrow$ & \cellcolor{best}\textbf{.991}{\tiny$\,\pm$.001} & .985{\tiny$\,\pm$.002} & \underline{.987}{\tiny$\,\pm$.002} & .981{\tiny$\,\pm$.002} & .981{\tiny$\,\pm$.002} & .980{\tiny$\,\pm$.002} & .618{\tiny$\,\pm$.029}\\
+\quad FPR $\downarrow$ & \cellcolor{best}\textbf{.0015}{\tiny$\,\pm$.0002} & \underline{.0073}{\tiny$\,\pm$.0007} & .0326{\tiny$\,\pm$.0014} & .1711{\tiny$\,\pm$.0019} & .1681{\tiny$\,\pm$.0021} & .1723{\tiny$\,\pm$.0020} & .8590{\tiny$\,\pm$.0124}\\
+\quad Size error $\downarrow$ & \cellcolor{best}\textbf{.22}{\tiny$\,\pm$.04} & \underline{1.34}{\tiny$\,\pm$.12} & 6.27{\tiny$\,\pm$.27} & 33.17{\tiny$\,\pm$.36} & 32.59{\tiny$\,\pm$.40} & 33.41{\tiny$\,\pm$.38} & 166.65{\tiny$\,\pm$2.41}\\
+\quad FEE $\downarrow$ & \cellcolor{best}\textbf{.0639}{\tiny$\,\pm$.0034} & \underline{.0694}{\tiny$\,\pm$.0038} & .0741{\tiny$\,\pm$.0043} & .1255{\tiny$\,\pm$.0060} & .1163{\tiny$\,\pm$.0057} & .1268{\tiny$\,\pm$.0061} & .1981{\tiny$\,\pm$.0106}\\
+\quad Test $R^2$ $\uparrow$ & \cellcolor{best}\textbf{.614}{\tiny$\,\pm$.016} & \underline{.611}{\tiny$\,\pm$.016} & .608{\tiny$\,\pm$.017} & .578{\tiny$\,\pm$.017} & .583{\tiny$\,\pm$.017} & .577{\tiny$\,\pm$.017} & .532{\tiny$\,\pm$.017}\\
+\midrule
+\multicolumn{8}{@{}l}{\textit{Robustness, 50 cases}}\\
+\quad F1 $\uparrow$ & \cellcolor{best}\textbf{.973}{\tiny$\,\pm$.005} & \underline{.905}{\tiny$\,\pm$.008} & .708{\tiny$\,\pm$.012} & .275{\tiny$\,\pm$.007} & .282{\tiny$\,\pm$.007} & .275{\tiny$\,\pm$.007} & .063{\tiny$\,\pm$.004}\\
+\quad MCC $\uparrow$ & \cellcolor{best}\textbf{.974}{\tiny$\,\pm$.005} & \underline{.909}{\tiny$\,\pm$.007} & .738{\tiny$\,\pm$.010} & .364{\tiny$\,\pm$.005} & .370{\tiny$\,\pm$.005} & .364{\tiny$\,\pm$.005} & .065{\tiny$\,\pm$.006}\\
+\quad AUPRC $\uparrow$ & \cellcolor{best}\textbf{.994}{\tiny$\,\pm$.001} & .991{\tiny$\,\pm$.002} & \underline{.993}$^\dagger${\tiny$\,\pm$.002} & .988{\tiny$\,\pm$.003} & .989{\tiny$\,\pm$.003} & .988{\tiny$\,\pm$.003} & .668{\tiny$\,\pm$.009}\\
+\quad FPR $\downarrow$ & \cellcolor{best}\textbf{.0020}{\tiny$\,\pm$.0005} & \underline{.0075}{\tiny$\,\pm$.0011} & .0298{\tiny$\,\pm$.0023} & .1582{\tiny$\,\pm$.0080} & .1527{\tiny$\,\pm$.0076} & .1590{\tiny$\,\pm$.0081} & .7985{\tiny$\,\pm$.0268}\\
+\quad Size error $\downarrow$ & \cellcolor{best}\textbf{.31}{\tiny$\,\pm$.08} & \underline{1.58}{\tiny$\,\pm$.19} & 7.22{\tiny$\,\pm$.45} & 37.53{\tiny$\,\pm$1.27} & 36.51{\tiny$\,\pm$1.33} & 37.57{\tiny$\,\pm$1.26} & 208.34{\tiny$\,\pm$12.81}\\
+\quad FEE $\downarrow$ & \cellcolor{best}\textbf{.0578}{\tiny$\,\pm$.0036} & \underline{.0609}{\tiny$\,\pm$.0042} & .0649{\tiny$\,\pm$.0043} & .1203{\tiny$\,\pm$.0062} & .1112{\tiny$\,\pm$.0059} & .1217{\tiny$\,\pm$.0062} & .2047{\tiny$\,\pm$.0099}\\
+\quad Test $R^2$ $\uparrow$ & \cellcolor{best}\textbf{.626}{\tiny$\,\pm$.003} & \underline{.624}{\tiny$\,\pm$.003} & .621{\tiny$\,\pm$.003} & .585{\tiny$\,\pm$.004} & .591{\tiny$\,\pm$.004} & .584{\tiny$\,\pm$.004} & .528{\tiny$\,\pm$.007}\\
+\midrule
+\multicolumn{8}{@{}l}{\textit{Sharing, 55 cases}}\\
+\quad F1 $\uparrow$ & \cellcolor{best}\textbf{.977}{\tiny$\,\pm$.003} & \underline{.914}{\tiny$\,\pm$.004} & .723{\tiny$\,\pm$.007} & .290{\tiny$\,\pm$.003} & .294{\tiny$\,\pm$.003} & .288{\tiny$\,\pm$.003} & .072{\tiny$\,\pm$.002}\\
+\quad MCC $\uparrow$ & \cellcolor{best}\textbf{.977}{\tiny$\,\pm$.003} & \underline{.917}{\tiny$\,\pm$.004} & .749{\tiny$\,\pm$.006} & .374{\tiny$\,\pm$.003} & .378{\tiny$\,\pm$.003} & .372{\tiny$\,\pm$.003} & .067{\tiny$\,\pm$.006}\\
+\quad AUPRC $\uparrow$ & \cellcolor{best}\textbf{.996}{\tiny$\,\pm$.001} & .993{\tiny$\,\pm$.002} & \underline{.994}$^\dagger${\tiny$\,\pm$.002} & .992{\tiny$\,\pm$.002} & .992{\tiny$\,\pm$.002} & .992{\tiny$\,\pm$.002} & .547{\tiny$\,\pm$.038}\\
+\quad FPR $\downarrow$ & \cellcolor{best}\textbf{.0013}{\tiny$\,\pm$.0002} & \underline{.0065}{\tiny$\,\pm$.0004} & .0323{\tiny$\,\pm$.0012} & .1738{\tiny$\,\pm$.0028} & .1700{\tiny$\,\pm$.0021} & .1748{\tiny$\,\pm$.0027} & .8288{\tiny$\,\pm$.0248}\\
+\quad Size error $\downarrow$ & \cellcolor{best}\textbf{.22}{\tiny$\,\pm$.03} & \underline{1.21}{\tiny$\,\pm$.07} & 6.23{\tiny$\,\pm$.23} & 33.71{\tiny$\,\pm$.53} & 32.96{\tiny$\,\pm$.41} & 33.89{\tiny$\,\pm$.52} & 160.67{\tiny$\,\pm$4.85}\\
+\quad FEE $\downarrow$ & \cellcolor{best}\textbf{.0579}{\tiny$\,\pm$.0025} & \underline{.0591}$^\dagger${\tiny$\,\pm$.0028} & .0637{\tiny$\,\pm$.0033} & .1141{\tiny$\,\pm$.0034} & .1046{\tiny$\,\pm$.0032} & .1154{\tiny$\,\pm$.0035} & .2516{\tiny$\,\pm$.0175}\\
+\quad Test $R^2$ $\uparrow$ & \cellcolor{best}\textbf{.621}{\tiny$\,\pm$.005} & \underline{.620}$^\dagger${\tiny$\,\pm$.005} & .618{\tiny$\,\pm$.005} & .585{\tiny$\,\pm$.005} & .591{\tiny$\,\pm$.005} & .584{\tiny$\,\pm$.005} & .493{\tiny$\,\pm$.012}\\
+\bottomrule
+\end{tabular*}
+\end{table*}

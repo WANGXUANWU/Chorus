@@ -1,0 +1,121 @@
+[
+ {
+  "experiment": "q_scaling",
+  "tag": "q256",
+  "method": "Chorus",
+  "size": 256,
+  "q": 256,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    256
+   ]
+  },
+  "reps": 2,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "q_scaling",
+  "tag": "q256",
+  "method": "sparsegl",
+  "size": 256,
+  "q": 256,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    256
+   ]
+  },
+  "reps": 2,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "q_scaling",
+  "tag": "q256",
+  "method": "SAM",
+  "size": 256,
+  "q": 256,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    256
+   ]
+  },
+  "reps": 2,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "q_scaling",
+  "tag": "q256",
+  "method": "biglasso",
+  "size": 256,
+  "q": 256,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    256
+   ]
+  },
+  "reps": 2,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "q_scaling",
+  "tag": "q256",
+  "method": "Celer",
+  "size": 256,
+  "q": 256,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    256
+   ]
+  },
+  "reps": 2,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "q_scaling",
+  "tag": "q256",
+  "method": "skglm",
+  "size": 256,
+  "q": 256,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    256
+   ]
+  },
+  "reps": 2,
+  "cap_seconds": 3600
+ },
+ {
+  "experiment": "q_scaling",
+  "tag": "q256",
+  "method": "grpreg",
+  "size": 256,
+  "q": 256,
+  "n": 2000,
+  "case": "results/cases/eff_q256",
+  "options": {
+   "resp_range": [
+    0,
+    256
+   ]
+  },
+  "reps": 2,
+  "cap_seconds": 3600
+ }
+]

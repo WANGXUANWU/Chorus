@@ -1,0 +1,87 @@
+[
+ {
+  "experiment": "budget",
+  "tag": "M0.25",
+  "method": "Chorus",
+  "size": 0.25,
+  "q": 64,
+  "n": 200000,
+  "M": 268435456.0,
+  "case": "results/cases/disk_n200000",
+  "options": {
+   "disk": true,
+   "budget": 268435456
+  },
+  "reps": 1,
+  "budget_gb": 0.75,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "budget",
+  "tag": "M0.5",
+  "method": "Chorus",
+  "size": 0.5,
+  "q": 64,
+  "n": 200000,
+  "M": 536870912.0,
+  "case": "results/cases/disk_n200000",
+  "options": {
+   "disk": true,
+   "budget": 536870912
+  },
+  "reps": 1,
+  "budget_gb": 1.0,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "budget",
+  "tag": "M1.0",
+  "method": "Chorus",
+  "size": 1.0,
+  "q": 64,
+  "n": 200000,
+  "M": 1073741824.0,
+  "case": "results/cases/disk_n200000",
+  "options": {
+   "disk": true,
+   "budget": 1073741824
+  },
+  "reps": 1,
+  "budget_gb": 1.5,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "budget",
+  "tag": "M2.0",
+  "method": "Chorus",
+  "size": 2.0,
+  "q": 64,
+  "n": 200000,
+  "M": 2147483648.0,
+  "case": "results/cases/disk_n200000",
+  "options": {
+   "disk": true,
+   "budget": 2147483648
+  },
+  "reps": 1,
+  "budget_gb": 2.5,
+  "cap_seconds": 7200
+ },
+ {
+  "experiment": "budget",
+  "tag": "M4.0",
+  "method": "Chorus",
+  "size": 4.0,
+  "q": 64,
+  "n": 200000,
+  "M": 4294967296.0,
+  "case": "results/cases/disk_n200000",
+  "options": {
+   "disk": true,
+   "budget": 4294967296
+  },
+  "reps": 1,
+  "budget_gb": 4.5,
+  "cap_seconds": 7200
+ }
+]

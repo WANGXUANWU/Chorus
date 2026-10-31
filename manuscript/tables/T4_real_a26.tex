@@ -1,0 +1,22 @@
+\begin{table}[t]
+\caption{Test $R^2$ on the real workloads at the model size of \sys{} and at the size each method selects, mean $\pm$ standard error over responses, with the median model size. Bold: best. $\dagger$: not significantly different from the best.}
+\label{tab:real}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{1.3pt}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}lrrrrrrrr@{}}
+\toprule
+& \multicolumn{3}{c}{At the size of \sys{} $\uparrow$} & \multicolumn{3}{c}{Own size $\uparrow$} & \multicolumn{2}{c}{Size}\\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(l){8-9}
+Method & DepMap & B1 & B2 & DepMap & B1 & B2 & Dep. & Bj.\\
+\midrule
+\sys{} & \textbf{.120}{\tiny$\,\pm$.008} & \textbf{.610}{\tiny$\,\pm$.013} & \textbf{.442}{\tiny$\,\pm$.029} & .120 & .610$^\dagger$ & .442 & 58 & 13\\
+Adaptive GL & .094{\tiny$\,\pm$.008} & .593{\tiny$\,\pm$.012} & .414{\tiny$\,\pm$.030} & .094 & .595 & .416 & 12 & 11\\
+GMCP & .108{\tiny$\,\pm$.008} & .590{\tiny$\,\pm$.012} & .409{\tiny$\,\pm$.028} & .110 & .600 & .405 & 27 & 14\\
+SGL & .117{\tiny$\,\pm$.008} & .536{\tiny$\,\pm$.018} & .367{\tiny$\,\pm$.028} & .124 & .596 & .386 & 84 & 28\\
+SpAM & .117{\tiny$\,\pm$.008} & .542{\tiny$\,\pm$.016} & .397{\tiny$\,\pm$.023} & .124 & \textbf{.616} & \textbf{.492} & 86 & 36\\
+GL & .117{\tiny$\,\pm$.008} & .536{\tiny$\,\pm$.018} & .362{\tiny$\,\pm$.028} & .124 & .596 & .382 & 83 & 28\\
+MTL & .065{\tiny$\,\pm$.005} & .390{\tiny$\,\pm$.028} & .226{\tiny$\,\pm$.026} & \textbf{.133} & .572 & .424 & 862 & 35\\
+\bottomrule
+\end{tabular*}
+\end{table}

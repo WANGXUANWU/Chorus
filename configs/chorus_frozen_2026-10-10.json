@@ -1,0 +1,28 @@
+{
+ "name": "Chorus default (frozen on tuning seeds 101-103)",
+ "frozen": "2026-10-10 (amended, amendments 6 and 11)",
+ "n_lambda": 30,
+ "lambda_min_ratio": 0.02,
+ "alphas": [
+  0.0,
+  0.25,
+  0.5,
+  0.75,
+  1.0
+ ],
+ "gammas": [
+  1.0,
+  2.0
+ ],
+ "selection": "one-standard-error rule (sparsest candidate within one SE of the best), applied either once for all responses or per response; the granularity is chosen on 20 random halves of the validation split: the variant with smaller models is adopted unless its held-out error exceeds the other's by more than one SE",
+ "tol_relative_gap": 1e-06,
+ "strong_rules": true,
+ "mode_rule": "residual if in memory and n <= 0.25 D, else Gram",
+ "evidence": "results/pilot/acc (36 tuning cases): 1se10 R2 0.6129, FEE 0.0665, F1 0.9368, MCC 0.9403, AUPRC 0.9943",
+ "policy": "Formal seeds start at 1001 and are never used for tuning. Every method uses the same 30-point path with ratio 0.02 and per-response validation selection.",
+ "source_sha256": "9e7599c3519842b733ebad693606d93bc486d2f53f2b632e17312ad1ce8ca090",
+ "patience": 5,
+ "evidence_patience": "results/pilot/acc: patience 5 gives identical mean metrics to the full path (R2 0.6129, F1 0.9368) with 2.5x lower fit time",
+ "evidence_selection_amendment": "results/pilot/acc tuning seeds: per-response rule F1 0.961, MCC 0.963, R2 0.613, FEE 0.0666, AUPRC 0.992 vs global rule F1 0.937, MCC 0.940, R2 0.613, FEE 0.0665, AUPRC 0.994",
+ "evidence_granularity_amendment": "results/pilot/acc tuning seeds (36 cases): auto R2 0.6131, FEE 0.0661, F1 0.947, MCC 0.950, AUPRC 0.9935, size 6.72 (global on 30, per-response on 6); per-response R2 0.6127, FEE 0.0666, F1 0.961, MCC 0.963, AUPRC 0.9918; global R2 0.6126, FEE 0.0671, F1 0.937, MCC 0.940, AUPRC 0.9940"
+}

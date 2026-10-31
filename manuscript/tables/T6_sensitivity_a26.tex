@@ -1,0 +1,29 @@
+\begin{table}[t]
+\caption{Sensitivity of \sys{} on the main grid, one choice varied at a time, mean $\pm$ standard error over cases. Bold: best setting.}
+\label{tab:sensitivity}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{1.5pt}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}lrrrrr@{}}
+\toprule
+Setting & F1 $\uparrow$ & MCC $\uparrow$ & FPR $\downarrow$ & FEE $\downarrow$ & Test $R^2$ $\uparrow$\\
+\midrule
+Frozen configuration & .969{\tiny$\,\pm$.004} & .970 & .0015 & .0639{\tiny$\,\pm$.0034} & \textbf{.614}\\
+$\zeta=0.25$ & .959{\tiny$\,\pm$.005} & .961 & .0027 & \textbf{.0626}{\tiny$\,\pm$.0034} & \textbf{.614}\\
+$\zeta=0.75$ & \textbf{.971}{\tiny$\,\pm$.004} & \textbf{.972} & .0009 & .0665{\tiny$\,\pm$.0036} & .612\\
+$\zeta=1$ & .970{\tiny$\,\pm$.003} & .971 & \textbf{.0006} & .0701{\tiny$\,\pm$.0037} & .610\\
+$\alpha\in\{0,1\}$ & .953{\tiny$\,\pm$.005} & .955 & .0030 & .0663{\tiny$\,\pm$.0037} & .612\\
+$\alpha\in\{0,0.5,1\}$ & .966{\tiny$\,\pm$.004} & .967 & .0019 & .0636{\tiny$\,\pm$.0034} & \textbf{.614}\\
+$\gamma=1$ only & .944{\tiny$\,\pm$.007} & .946 & .0040 & .0648{\tiny$\,\pm$.0035} & .613\\
+$\gamma=2$ only & .956{\tiny$\,\pm$.004} & .958 & .0043 & .0702{\tiny$\,\pm$.0038} & .610\\
+$d=3$ only & .966{\tiny$\,\pm$.004} & .967 & .0020 & .0694{\tiny$\,\pm$.0028} & .609\\
+$d=5$ only & .958{\tiny$\,\pm$.005} & .960 & .0024 & .0704{\tiny$\,\pm$.0042} & .610\\
+Patience $\pi=3$ & .969{\tiny$\,\pm$.004} & .970 & .0015 & .0642{\tiny$\,\pm$.0034} & .613\\
+Patience $\pi=8$ & .969{\tiny$\,\pm$.004} & .970 & .0015 & .0640{\tiny$\,\pm$.0034} & .613\\
+Full path, no exit & .969{\tiny$\,\pm$.004} & .970 & .0014 & .0641{\tiny$\,\pm$.0034} & .613\\
+Without the refit & .969{\tiny$\,\pm$.004} & .970 & .0015 & .0675{\tiny$\,\pm$.0036} & .611\\
+\midrule
+\textit{Adaptive GL} & .908{\tiny$\,\pm$.008} & .913 & .0073 & .0694{\tiny$\,\pm$.0038} & .611\\
+\bottomrule
+\end{tabular*}
+\end{table}

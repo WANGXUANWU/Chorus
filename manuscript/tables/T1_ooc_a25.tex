@@ -1,0 +1,23 @@
+\begin{table}[t]
+\caption{Fits with the design on disk and a budget of 2~GiB: minutes and peak working set (GiB) at 25{,}000 to 400{,}000 rows. $\dagger$: stopped at the budget or at the time cap, measured at the stop.}
+\label{tab:ooc}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{1.2pt}
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}lrrrrrrrrrr@{}}
+\toprule
+& \multicolumn{5}{c}{Minutes} & \multicolumn{5}{c}{Peak GiB}\\
+\cmidrule(lr){2-6}\cmidrule(l){7-11}
+Thousand rows & 25 & 50 & 100 & 200 & 400 & 25 & 50 & 100 & 200 & 400\\
+\midrule
+\textbf{\sys{}} & \cellcolor{best}\textbf{4.8} & \cellcolor{best}\textbf{7.4} & \cellcolor{best}\textbf{10.2} & \cellcolor{best}\textbf{25.7} & \cellcolor{best}\textbf{53.9} & \textbf{0.88} & \textbf{0.89} & \textbf{0.81} & \textbf{0.92} & \textbf{0.99}\\
+GL, adelie & 2.2 & 3.3 & 0.2$^\dagger$ & 0.2$^\dagger$ & 0.1$^\dagger$ & 0.99 & 1.48 & 2.0$^\dagger$ & 2.2$^\dagger$ & 2.3$^\dagger$\\
+GL, skglm & 60.0$^\dagger$ & 60.0$^\dagger$ & 0.1$^\dagger$ & 0.2$^\dagger$ & 0.1$^\dagger$ & 1.1$^\dagger$ & 1.6$^\dagger$ & 2.0$^\dagger$ & 2.1$^\dagger$ & 2.1$^\dagger$\\
+GL, Celer & 42.8 & 0.2$^\dagger$ & 0.2$^\dagger$ & 0.1$^\dagger$ & 0.1$^\dagger$ & 1.39 & 2.0$^\dagger$ & 2.1$^\dagger$ & 2.1$^\dagger$ & 2.1$^\dagger$\\
+GMCP, grpreg & 0.2$^\dagger$ & 0.2$^\dagger$ & 0.1$^\dagger$ & 0.1$^\dagger$ & 0.1$^\dagger$ & 2.0$^\dagger$ & 2.0$^\dagger$ & 2.0$^\dagger$ & 2.0$^\dagger$ & 2.0$^\dagger$\\
+SGL, sparsegl & 1.1$^\dagger$ & 0.2$^\dagger$ & 0.2$^\dagger$ & 0.3$^\dagger$ & 0.2$^\dagger$ & 2.0$^\dagger$ & 2.0$^\dagger$ & 2.0$^\dagger$ & 2.0$^\dagger$ & 2.0$^\dagger$\\
+SpAM, SAM & 1.7$^\dagger$ & 3.5$^\dagger$ & 6.3$^\dagger$ & 0.2$^\dagger$ & 0.1$^\dagger$ & 2.0$^\dagger$ & 2.0$^\dagger$ & 2.0$^\dagger$ & 2.0$^\dagger$ & 2.1$^\dagger$\\
+MTL, biglasso & 5.9 & 18.7 & 6.9$^\dagger$ & 5.8$^\dagger$ & 4.6$^\dagger$ & 1.28 & 1.53 & 2.0$^\dagger$ & 2.0$^\dagger$ & 2.0$^\dagger$\\
+\bottomrule
+\end{tabular*}
+\end{table}
